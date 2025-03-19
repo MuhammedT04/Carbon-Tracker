@@ -1,4 +1,5 @@
 🌍 CarbonTrackr – Travel Carbon Footprint Tracker
+
 CarbonTrackr is a web application that helps users track and offset their carbon footprint based on their travel habits. The app calculates CO₂ emissions and provides AI-powered recommendations for reducing environmental impact.
 
 ✨ Features
