@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "module": "CommonJS",
-    "target": "ES6",
-    "esModuleInterop": true,
-    "strict": true
+    "noImplicitAny": true,
+    "types": ["node"],
+    "moduleResolution": "node"
   },
-  "include": ["src", "app.ts", "src/config"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

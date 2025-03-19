@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import router from "../src/router/carbonRoutes";
+import router from "./router/carbonRoutes";
 
 dotenv.config();
 
