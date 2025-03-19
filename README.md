@@ -3,15 +3,18 @@
 CarbonTrackr is a web application that helps users track and offset their carbon footprint based on their travel habits. The app calculates CO₂ emissions and provides AI-powered recommendations for reducing environmental impact.
 
 ✨ Features
+  
 🔢 Carbon Footprint Calculator:
 
 Enter Travel Distance (km), Mode of Transportation, and Frequency
 Calculate Carbon Footprint (kg CO₂e)
+
 🤖 AI-Based Recommendations (Powered by GPT-3.5-turbo):
 
 Consider carpooling or public transit
 Combine multiple errands into one trip
 Explore remote work options to reduce commuting
+
 ⚡ Modern Tech Stack:
 
 Frontend: React + Vite, ShadCN, Redux
