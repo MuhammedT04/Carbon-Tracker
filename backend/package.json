@@ -17,8 +17,8 @@
     "typescript": "^5.8.2"
   },
 "scripts": {
-  "dev": "nodemon src/app.ts", 
-  "start": "nodemon src/app.ts"
+  "dev": "npx nodemon src/app.ts",
+  "start": "npx nodemon src/app.ts"
 }
 ,
   "author": "",
