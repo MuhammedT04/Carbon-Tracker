@@ -1,6 +1,6 @@
 import { TravelData } from '../store/types';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://carbon-tracker-6mad.onrender.com/api';
 
 export const calculateCarbonFootprint = async (travelData: TravelData): Promise<number> => {
   const response = await fetch(`${API_URL}/calculate`, {
@@ -16,7 +16,7 @@ export const calculateCarbonFootprint = async (travelData: TravelData): Promise<
   }
 
   const data = await response.json();
-  
+
   return data.carbonFootprint;
 
 };
